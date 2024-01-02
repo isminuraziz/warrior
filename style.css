@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: inline;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+}
+
+nav a:hover {
+  font-size: 20px;
+  font-weight: 1000;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+main aside {
+  position: fixed;
+  inset-block: 0;
+  inset-inline-end: 0;
+}
+
+main aside .contact {
+  height: 100%;
+  display: flex;
+}
+
+main aside .contact ul {
+  padding: 1.5rem 1rem;
+  margin: auto;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  background-color: transparent;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+main aside .contact li {
+  list-style-type: none;
+}
+
+main aside .contact li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000000;
+  transition: all 0.1s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -ms-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+}
+
+main aside .contact li a:hover {
+  color: #068FFF;
+}
